@@ -24,31 +24,5 @@ int main(int argc, char **argv)
 
   ros::spin();
 
-  /*
-
-  while (ros::ok())
-  {
-
-    // std_msgs::Int32 msg;
-
-    // std::Int32stream ss;
-    // ss << "hello world " << count;
-    // msg.data = ss.str();
-
-    // ROS_INFO("%s", msg.data.c_str());
-
-    if (publishNow)
-    {
-     chatter_pub.publish(msgToPublish);
-     publishNow = false;
-   }
-
-   ros::spinOnce();
-    // loop_rate.sleep();
-    // ++count;
- }
-
- ros::spin();
-*/
- return 0;
+  return 0;
 }
