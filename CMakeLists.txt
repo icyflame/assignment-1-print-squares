@@ -107,6 +107,9 @@ include_directories(
 add_executable(numbers src/numbers.cpp)
 target_link_libraries(numbers ${catkin_LIBRARIES})
 
+add_executable(squares src/squares.cpp)
+target_link_libraries(squares ${catkin_LIBRARIES})
+
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
 # add_dependencies(print_squares_icyflame_node print_squares_icyflame_generate_messages_cpp)
